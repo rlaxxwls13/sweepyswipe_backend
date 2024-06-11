@@ -1,4 +1,5 @@
 # 쓱쓱싹싹 (스마트 쓰레기 관리 시스템)
+
 ## 개발언어
 Language: Java<br>
 Framework: Spring Boot<br>
@@ -26,3 +27,6 @@ Database: H2
 
 #### 챗봇 상담 서비스
 - 챗봇 서비스를 도입하여 사용자가 궁금한 점을 즉시 해결할 수 있도록 지원
+
+#### 가이드북 예시
+![image](https://github.com/rlaxxwls13/sweepyswipe_backend/assets/101396454/1def2799-6621-4f78-b0c5-d2f6a0ef4774)
