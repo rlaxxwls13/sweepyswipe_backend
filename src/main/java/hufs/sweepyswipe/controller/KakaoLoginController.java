@@ -54,6 +54,6 @@ public class KakaoLoginController {
         log.info("save to session");
 
         //홈 페이지로 리디렉션
-        response.sendRedirect("/");
+        response.sendRedirect("http://localhost:3000");
     }
 }
