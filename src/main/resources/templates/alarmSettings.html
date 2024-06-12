@@ -9,6 +9,10 @@
 
 <form th:action="@{/members/alarm}" th:object="${member}" method="post">
     <div>
+        <label for="enabled">Enabled: </label>
+        <input type="checkbox" id="enabled" th:field="*{enabled}"/>
+    </div>
+    <div>
         <label for="dayOfWeek">Day of Week: </label>
         <select id="dayOfWeek" th:field="*{dayOfWeek}">
             <option th:each="day : ${T(java.time.DayOfWeek).values()}"
@@ -18,10 +22,6 @@
     <div>
         <label for="time">Time: </label>
         <input type="time" id="time" th:field="*{time}"/>
-    </div>
-    <div>
-        <label for="enabled">Enabled: </label>
-        <input type="checkbox" id="enabled" th:field="*{enabled}"/>
     </div>
     <div>
         <button type="submit">Save</button>
